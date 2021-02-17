@@ -4,6 +4,8 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
+        #float('inf')
+        #float('-inf')
         max_int = (pow(2,31)-1).__str__()
         min_int = (-1*pow(2,31)).__str__()
         y = x.__str__()[::-1]
