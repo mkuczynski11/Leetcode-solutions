@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/longest-palindromic-substring/
 def findPalindrome(s,left,right):
             while(right < len(s) and left >= 0 and s[left] == s[right]):
                 left -= 1
